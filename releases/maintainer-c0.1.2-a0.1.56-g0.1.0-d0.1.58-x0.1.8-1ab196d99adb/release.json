@@ -1,0 +1,1436 @@
+{
+    "schemaVersion":  1,
+    "releaseId":  "maintainer-c0.1.2-a0.1.56-g0.1.0-d0.1.58-x0.1.8-1ab196d99adb",
+    "releaseIdentitySha256":  "1ab196d99adbdd037e0094a2e4c2c3fdd2d06a6208263ce6bdc4f3e338a439b7",
+    "openos":  "1.8.9",
+    "targetContractSha256":  "ca6f8844ffc6ee916f70063990560ad15eddd381f65e88a24894e245407b533f",
+    "persistedManifestSha256":  "6b37649552d6f16ce92b3fa793e0b363a917f40be552f27a05d32915758df043",
+    "payloadContractSha256":  "5a5e805451f338b5f73f3b9857a05f25514e10bc1d3843c11217c6cde87faa59",
+    "installerTemplateSha256":  "4458f1e46828e16d35c5c2bb3f1ace2e38237286516c996aebf396ed51255ebb",
+    "fileCount":  173,
+    "totalFileBytes":  751502,
+    "bundleFile":  "bundle.ocb",
+    "bundleBytes":  773171,
+    "bundleSha256":  "be5f9a44c8b6f3af75518fea5e032c5e483538eb5f058fdfb6543190a15258f7",
+    "installerFile":  "install.lua",
+    "installerSha256":  "4c48ac1caa1df5b84e4a351fac64edba63dfddd9e1d4f537244e487750ea9d93",
+    "defaultBundleUrl":  null,
+    "publicationEligible":  true,
+    "sourceTree":  {
+                       "commit":  "4372e23934ef0d163f37a63d9098e564d4e0ee0d",
+                       "dirty":  false
+                   },
+    "systems":  [
+                    {
+                        "name":  "core",
+                        "version":  "0.1.2",
+                        "fileCount":  11
+                    },
+                    {
+                        "name":  "ae2",
+                        "version":  "0.1.56",
+                        "fileCount":  83
+                    },
+                    {
+                        "name":  "gt_power",
+                        "version":  "0.1.0",
+                        "fileCount":  6
+                    },
+                    {
+                        "name":  "dashboard",
+                        "version":  "0.1.58",
+                        "fileCount":  71
+                    },
+                    {
+                        "name":  "commands",
+                        "version":  "0.1.8",
+                        "fileCount":  2
+                    }
+                ],
+    "files":  [
+                  {
+                      "index":  1,
+                      "system":  "core",
+                      "target":  "/usr/lib/oc/core/config.lua",
+                      "sourceBuildPath":  "dist/core/0.1.2/root/usr/lib/oc/core/config.lua",
+                      "size":  4252,
+                      "sha256":  "ef242d827946eba4ede0a0d150a21ab6c8729c9cf1a79bc5c01b6370158e6316"
+                  },
+                  {
+                      "index":  2,
+                      "system":  "core",
+                      "target":  "/usr/lib/oc/core/config_store.lua",
+                      "sourceBuildPath":  "dist/core/0.1.2/root/usr/lib/oc/core/config_store.lua",
+                      "size":  6748,
+                      "sha256":  "94e05dddb639da47ef5a250caa56878f31b371486b3ce70519f91e275956a689"
+                  },
+                  {
+                      "index":  3,
+                      "system":  "core",
+                      "target":  "/usr/lib/oc/core/logger.lua",
+                      "sourceBuildPath":  "dist/core/0.1.2/root/usr/lib/oc/core/logger.lua",
+                      "size":  1247,
+                      "sha256":  "fc082aae65ea96d754a3aeef1e19ad9e52d78246c23849a8e334012ac9edf770"
+                  },
+                  {
+                      "index":  4,
+                      "system":  "core",
+                      "target":  "/usr/lib/oc/core/scheduler.lua",
+                      "sourceBuildPath":  "dist/core/0.1.2/root/usr/lib/oc/core/scheduler.lua",
+                      "size":  849,
+                      "sha256":  "699848fdec4c3d4e0be3e3a9e0fa2248c13af68838a3a4b884067c83a5150dbe"
+                  },
+                  {
+                      "index":  5,
+                      "system":  "core",
+                      "target":  "/usr/lib/oc/core/component_registry.lua",
+                      "sourceBuildPath":  "dist/core/0.1.2/root/usr/lib/oc/core/component_registry.lua",
+                      "size":  831,
+                      "sha256":  "94e7cc9ba15d659cfb2fa0023dc5e6889bdd543b07bf0dfee93ce0572dcd77f0"
+                  },
+                  {
+                      "index":  6,
+                      "system":  "core",
+                      "target":  "/usr/lib/oc/core/health.lua",
+                      "sourceBuildPath":  "dist/core/0.1.2/root/usr/lib/oc/core/health.lua",
+                      "size":  1351,
+                      "sha256":  "05ba5f8bbec11f7999e9edac74175ffedbf520657438915c62b2a90afb739d09"
+                  },
+                  {
+                      "index":  7,
+                      "system":  "core",
+                      "target":  "/usr/lib/oc/core/inspect.lua",
+                      "sourceBuildPath":  "dist/core/0.1.2/root/usr/lib/oc/core/inspect.lua",
+                      "size":  2080,
+                      "sha256":  "2712c320817c159dc00f213e358a41c79bb485512c9a7f195f6bcf120d1ad02b"
+                  },
+                  {
+                      "index":  8,
+                      "system":  "core",
+                      "target":  "/usr/lib/oc/core/watchdog.lua",
+                      "sourceBuildPath":  "dist/core/0.1.2/root/usr/lib/oc/core/watchdog.lua",
+                      "size":  621,
+                      "sha256":  "f4ba9ef2a67db3310489c3d6daaf6396e4eda7afebf1a81b7da09b880655d58f"
+                  },
+                  {
+                      "index":  9,
+                      "system":  "core",
+                      "target":  "/usr/bin/oc-health",
+                      "sourceBuildPath":  "dist/core/0.1.2/root/usr/bin/oc-health",
+                      "size":  67,
+                      "sha256":  "225e9f90138258c03263385f6959fea7e5381d2d7084a5f0b0c406da6bdafe38"
+                  },
+                  {
+                      "index":  10,
+                      "system":  "core",
+                      "target":  "/usr/bin/oc-components",
+                      "sourceBuildPath":  "dist/core/0.1.2/root/usr/bin/oc-components",
+                      "size":  188,
+                      "sha256":  "56d14dc8d013df58de123afd41e70a4b421a66e47837dadadbbd01b5e1b69e6a"
+                  },
+                  {
+                      "index":  11,
+                      "system":  "core",
+                      "target":  "/etc/rc.d/oc-core.lua",
+                      "sourceBuildPath":  "dist/core/0.1.2/root/etc/rc.d/oc-core.lua",
+                      "size":  381,
+                      "sha256":  "d9b48887ef2642db75f6e8417605f2258ec2823567e8be85952260bb9578024f"
+                  },
+                  {
+                      "index":  12,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/adapter.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/adapter.lua",
+                      "size":  4402,
+                      "sha256":  "10df23324f433f749555329d93bbe1c90263a5d22cb9e1d6f7deb2e0628d8323"
+                  },
+                  {
+                      "index":  13,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/adapter_cpu.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/adapter_cpu.lua",
+                      "size":  7209,
+                      "sha256":  "f5a28d8c974e075c7d4210e6252311804762e473ffaa1cfed7d69b399dc0b14a"
+                  },
+                  {
+                      "index":  14,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/adapter_stock.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/adapter_stock.lua",
+                      "size":  2959,
+                      "sha256":  "622ae94aef1903c684b4336aab8461cb869860dee25f54a98926aba8a27af9fe"
+                  },
+                  {
+                      "index":  15,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/adapter_stock_rows.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/adapter_stock_rows.lua",
+                      "size":  8110,
+                      "sha256":  "9b006808df4880b6d463dd8d859125d3d286d1cc8175055bfb8f6c115df37d8c"
+                  },
+                  {
+                      "index":  16,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/adapter_stock_bulk.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/adapter_stock_bulk.lua",
+                      "size":  2266,
+                      "sha256":  "a5c5205c54d1b45627a6401da53c12d6a8d657f76d7de6384cdadd041442a168"
+                  },
+                  {
+                      "index":  17,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/adapter_stock_target.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/adapter_stock_target.lua",
+                      "size":  7188,
+                      "sha256":  "65c54828ba8bc0af1094d7c7faaeffbbc6c89fe16a9b6bbd78b23c8c3bcf4157"
+                  },
+                  {
+                      "index":  18,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/monitor.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/monitor.lua",
+                      "size":  4686,
+                      "sha256":  "2bc010ee0c60324c8c13a6c2ff1b1eecd45ca5c05c574eeef0ca26c9268c79c7"
+                  },
+                  {
+                      "index":  19,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/craft.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/craft.lua",
+                      "size":  1266,
+                      "sha256":  "1c03c83f73c3874b1a6e0dde65cf5c66e7450334524e08e58e79df2d61789422"
+                  },
+                  {
+                      "index":  20,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/craft_bridge.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/craft_bridge.lua",
+                      "size":  3032,
+                      "sha256":  "a1872b4c3e0400f2255c7457f05d64e850f67b1ad5082b05763c2e062706dce7"
+                  },
+                  {
+                      "index":  21,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/craft_catalog.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/craft_catalog.lua",
+                      "size":  4728,
+                      "sha256":  "160321cf82bdb1087eb78f30e72e7ea6e779fa9ffdb7511a1114424440aa91c6"
+                  },
+                  {
+                      "index":  22,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/craft_discovery.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/craft_discovery.lua",
+                      "size":  1689,
+                      "sha256":  "e390b7337fb2942b5c148bc3a55bb65779183a1ba941d77c20d7f46d56aed4d6"
+                  },
+                  {
+                      "index":  23,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/craft_discovery_shared.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/craft_discovery_shared.lua",
+                      "size":  2817,
+                      "sha256":  "b653b3c170be5676af7bded6ad875802d14ff9fc55be6e0ddd553dd31c82cc11"
+                  },
+                  {
+                      "index":  24,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/craft_discovery_metadata.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/craft_discovery_metadata.lua",
+                      "size":  6205,
+                      "sha256":  "7e00d4a7edc82508f1974e0adff07c8ef04dbb49236bfbadcef16c78f617d8b0"
+                  },
+                  {
+                      "index":  25,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/craft_discovery_live.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/craft_discovery_live.lua",
+                      "size":  6998,
+                      "sha256":  "3c0e8b64152a375f5b0bbedf8d4d99fa15ddc5094315e2c1a09518ca9e37620b"
+                  },
+                  {
+                      "index":  26,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/craft_match.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/craft_match.lua",
+                      "size":  4552,
+                      "sha256":  "4f083ee50ae11d68cb5c66c4d4f93a63911cd274aaeae1f6c696e2f0efefeb62"
+                  },
+                  {
+                      "index":  27,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/craft_probe.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/craft_probe.lua",
+                      "size":  8028,
+                      "sha256":  "223c279b8f83f76533bf770659adba9bbef91d86e02c3425ad51433954f473df"
+                  },
+                  {
+                      "index":  28,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/craft_requests.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/craft_requests.lua",
+                      "size":  1978,
+                      "sha256":  "a55b26f0f270a930333dceef9dff3f7154282326241a92bcbd68d7dfd840886d"
+                  },
+                  {
+                      "index":  29,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_cache.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_cache.lua",
+                      "size":  3623,
+                      "sha256":  "ff007e701ba7d0ce2be43b3e7d483b22fd5b70efeade31fd9f6508f52a24eca1"
+                  },
+                  {
+                      "index":  30,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_cache_keys.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_cache_keys.lua",
+                      "size":  1095,
+                      "sha256":  "cb0fa6cac56dcfcfd57699a01bd43445a27c324648a38eb4eb63b89f54bc11d5"
+                  },
+                  {
+                      "index":  31,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_binding.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_binding.lua",
+                      "size":  1819,
+                      "sha256":  "a9982a49c89d9decfd060d64edd384f8d0722ffaa84db5f44e044553be69ef4f"
+                  },
+                  {
+                      "index":  32,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_cpu.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_cpu.lua",
+                      "size":  942,
+                      "sha256":  "d90609bedbab2403764ce641dda4d64fe471b0f96d294a87f55e4a9730cdc83c"
+                  },
+                  {
+                      "index":  33,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_descriptor.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_descriptor.lua",
+                      "size":  396,
+                      "sha256":  "0a6ec27a34a408dbd61bb6acb26afb5577194d922df76e077a6a421b256dbd8a"
+                  },
+                  {
+                      "index":  34,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_direct.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_direct.lua",
+                      "size":  3382,
+                      "sha256":  "b6733b653b84805df15334dac7ca58e914191a90fe21a6c15a6d8a0f31999018"
+                  },
+                  {
+                      "index":  35,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_invoker.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_invoker.lua",
+                      "size":  3591,
+                      "sha256":  "5d23387d9c9a48b5fe21b63acda630726666100bbe2c60f62ce053c50b7414b6"
+                  },
+                  {
+                      "index":  36,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_fingerprint.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_fingerprint.lua",
+                      "size":  1808,
+                      "sha256":  "a6be34bc2564b54c35c385c28229f6ebc5706d6d3901acf56151442cc3bcd26c"
+                  },
+                  {
+                      "index":  37,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_label_scan.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_label_scan.lua",
+                      "size":  377,
+                      "sha256":  "44fcb11edbbe068f006270933a7f567a4f6dd7b3f82b69a25c01b021caf01091"
+                  },
+                  {
+                      "index":  38,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_match.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_match.lua",
+                      "size":  5403,
+                      "sha256":  "68da6eb05dc4ce61e737e5f45af71c264f85f7bef4bd17293843899dfa954563"
+                  },
+                  {
+                      "index":  39,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_nodes.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_nodes.lua",
+                      "size":  2635,
+                      "sha256":  "44c923b2bd78487ab59e01539cf2824f7e90daff392d5425959b66bb53087830"
+                  },
+                  {
+                      "index":  40,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_resolver.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_resolver.lua",
+                      "size":  2532,
+                      "sha256":  "b19de5477d2c41f0ebe7b3e09cd3df0943522c1a221cefe905707357c48a5895"
+                  },
+                  {
+                      "index":  41,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_submit.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_submit.lua",
+                      "size":  5732,
+                      "sha256":  "99ceb2d162af1edf9a7af2ea112d0d2048755e519efefc874b128b7151c74d77"
+                  },
+                  {
+                      "index":  42,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/request_tracker.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/request_tracker.lua",
+                      "size":  5185,
+                      "sha256":  "8c146300ef95ceb3eb8ba562f96190c98f46b168cb37bb3d56e0b8cf89eb67f3"
+                  },
+                  {
+                      "index":  43,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/requester.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/requester.lua",
+                      "size":  760,
+                      "sha256":  "a49d8081150619b70fc4e9b5ba459b1887e12f2b419366e920f845e9af433ca9"
+                  },
+                  {
+                      "index":  44,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/time.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/time.lua",
+                      "size":  1467,
+                      "sha256":  "9769e2493a889f6f5bebccfc893b1dc47433d4d7ce8ba9548c1728c9f0ad99f5"
+                  },
+                  {
+                      "index":  45,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/budget.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/budget.lua",
+                      "size":  3141,
+                      "sha256":  "babfbca5ec0abe01ab4bce518a50cac88df1c12272283cc5856dd6da50bb9060"
+                  },
+                  {
+                      "index":  46,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/cache_epoch.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/cache_epoch.lua",
+                      "size":  7176,
+                      "sha256":  "2d29684109067ed1d57b96142acd2265178ee1b2779e1867d9726b5e998d860c"
+                  },
+                  {
+                      "index":  47,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/stock_memory.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/stock_memory.lua",
+                      "size":  5812,
+                      "sha256":  "d1da375409d19170324aef8c8c96bf89c45625441b84076cd64ccadd0fc4aaff"
+                  },
+                  {
+                      "index":  48,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/stock_direct.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/stock_direct.lua",
+                      "size":  2896,
+                      "sha256":  "18a08ff60465f6530e785d1c3005f4bb0d99f813365c773ce2fd0cc798569672"
+                  },
+                  {
+                      "index":  49,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/chunk_adapt.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/chunk_adapt.lua",
+                      "size":  3350,
+                      "sha256":  "edfb4cc0555d4df201c84434f552c52bea1bfca6a7d6df08230bb140213a87f9"
+                  },
+                  {
+                      "index":  50,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_log.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_log.lua",
+                      "size":  4241,
+                      "sha256":  "d6a2e30ffbb88e8f9aa54f753e361bd5c45a637db24e7abf8fb9f1fdd0d0b3bc"
+                  },
+                  {
+                      "index":  51,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_cpu_witness.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_cpu_witness.lua",
+                      "size":  8717,
+                      "sha256":  "f1867733f8d0b85e009e135511a007d7d2a7381daf66acac90d7163f83f65d60"
+                  },
+                  {
+                      "index":  52,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_queue.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_queue.lua",
+                      "size":  4147,
+                      "sha256":  "3c74220a2edf03d57d17d109c52d6b0258687fcbca5cd03e0bb00f620e6b620a"
+                  },
+                  {
+                      "index":  53,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_queue_dispatch.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_queue_dispatch.lua",
+                      "size":  9234,
+                      "sha256":  "e439e447d96feaceb9e2a0b1e592045ba4adcbd361d0520faf312ae85c84f773"
+                  },
+                  {
+                      "index":  54,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_daemon_config.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_daemon_config.lua",
+                      "size":  4483,
+                      "sha256":  "7acb957a2b81ea2c80a3154582c3fa4132a411fa7ef194913ca70c51893f517b"
+                  },
+                  {
+                      "index":  55,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_daemon.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_daemon.lua",
+                      "size":  9521,
+                      "sha256":  "6e75cc1daf27e6298894b4e2ceb411907e865ca8352fb30af3a1e5862c03b167"
+                  },
+                  {
+                      "index":  56,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_memory.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_memory.lua",
+                      "size":  738,
+                      "sha256":  "e00ebbdb6bed4cc83151abcaaf40b1ea77eef0272581db879803133c0277c4d0"
+                  },
+                  {
+                      "index":  57,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_daemon_control.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_daemon_control.lua",
+                      "size":  9083,
+                      "sha256":  "4355546f55e72ea95fba25908e2708a5d724d1dde1a499a93e1755b9e8f797c5"
+                  },
+                  {
+                      "index":  58,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_state.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_state.lua",
+                      "size":  7506,
+                      "sha256":  "4768a0f5c06c8f9cd249cd8c18ed6c1087d8997811d697e9ee9d6bee4a3d0503"
+                  },
+                  {
+                      "index":  59,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_state_store.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_state_store.lua",
+                      "size":  1133,
+                      "sha256":  "d816de0c046977bdf9bf76a50281dbdd74536f4e0fe0e6c7e9b2950ab14cbde7"
+                  },
+                  {
+                      "index":  60,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_state_identity.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_state_identity.lua",
+                      "size":  9684,
+                      "sha256":  "90fc1eb9df7589aff8e1bbf34c15ecfacf9dfb07b2bb18b12b214151bbfe0b51"
+                  },
+                  {
+                      "index":  61,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_state_report.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_state_report.lua",
+                      "size":  9476,
+                      "sha256":  "20d113f5cc8fb384b6a59f3bbeed34ef56c13ca244c4cead37b67bbbc6bb6e9f"
+                  },
+                  {
+                      "index":  62,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_requests.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_requests.lua",
+                      "size":  10001,
+                      "sha256":  "38d94eff6079d59d91a44cc15fd2cc34224f44c062dbd84da460a494d3070275"
+                  },
+                  {
+                      "index":  63,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_requests_witness.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_requests_witness.lua",
+                      "size":  6580,
+                      "sha256":  "0c290b2e07f5b193af29f5649ed7f936275979d418f4a21037e7205e771212b5"
+                  },
+                  {
+                      "index":  64,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_rules.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_rules.lua",
+                      "size":  4382,
+                      "sha256":  "cdf556d04a80951ee5d9f65f40bd1b15e9c9327af197620fa4a15811743dcfb8"
+                  },
+                  {
+                      "index":  65,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_status_cache.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_status_cache.lua",
+                      "size":  1829,
+                      "sha256":  "a60147f5fcb1e3bbaa1014c4491944432111e349fe7f9225bcf4aa292f759c0c"
+                  },
+                  {
+                      "index":  66,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_status_rows.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_status_rows.lua",
+                      "size":  6313,
+                      "sha256":  "0b2f6973a990be61e89e22653363150d9e700cb8121c235ac24e26e12e10b6cc"
+                  },
+                  {
+                      "index":  67,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_status.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_status.lua",
+                      "size":  10471,
+                      "sha256":  "7a180a818ae0adefa9b31e46b1ffecdb59cff158eb83332f55ca385b17e136ab"
+                  },
+                  {
+                      "index":  68,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer_status_safety.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer_status_safety.lua",
+                      "size":  1224,
+                      "sha256":  "1cec8eb6f6332cf2b23c43099e79560052111913770bcf637d98c1964728f618"
+                  },
+                  {
+                      "index":  69,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/maintainer.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/maintainer.lua",
+                      "size":  7018,
+                      "sha256":  "079cb07b19fdb678d3b339b8361a1e64f25ea96dffb81bd08ccb0fc6715fc20c"
+                  },
+                  {
+                      "index":  70,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_catalog.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_catalog.lua",
+                      "size":  5321,
+                      "sha256":  "1f23af79b43a7375c696b4c53e67d9ffc2894f584c49f2dd78d42df867652438"
+                  },
+                  {
+                      "index":  71,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_editor.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_editor.lua",
+                      "size":  7189,
+                      "sha256":  "9c7a0fd08ad1803cc5694d3642193a26f9fd161891a1a0d7c5ce97e15edab748"
+                  },
+                  {
+                      "index":  72,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_editor_binding.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_editor_binding.lua",
+                      "size":  4660,
+                      "sha256":  "78db68ba613a25cf5415c77e7684555fbd231ac100af8bf8cf5613ea637195ff"
+                  },
+                  {
+                      "index":  73,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_editor_conditions.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_editor_conditions.lua",
+                      "size":  3298,
+                      "sha256":  "b6e633c37150497c492e8ac60e091d513e9661442b3e8ee8935410320e9408fb"
+                  },
+                  {
+                      "index":  74,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_choices.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_choices.lua",
+                      "size":  1403,
+                      "sha256":  "2be440bab344644bb9aa08a61f9c03ee3248f076a0274db83c06a65e06ae5ac6"
+                  },
+                  {
+                      "index":  75,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/line_contract.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/line_contract.lua",
+                      "size":  7761,
+                      "sha256":  "cf47ec83c76bbb50ddca8b68fd5b042972baa3d3cb19e481e78d6dce62d00daa"
+                  },
+                  {
+                      "index":  76,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_model.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_model.lua",
+                      "size":  6809,
+                      "sha256":  "6f38e3f6290f9b66a2914778b7a87fa7f9d3b3f8342cdfd2d9f6771cd62c8c6e"
+                  },
+                  {
+                      "index":  77,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_model_numbers.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_model_numbers.lua",
+                      "size":  1865,
+                      "sha256":  "b9fe73705a3fcdbb684db9294cde0cc3ecf1a4d6f9ab083fc0f502abab51670c"
+                  },
+                  {
+                      "index":  78,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_model_identity.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_model_identity.lua",
+                      "size":  3531,
+                      "sha256":  "6e26ecbdb20860394a5242e771f9fcc8deb45ebb85ed23eda5b126feabb9ecc7"
+                  },
+                  {
+                      "index":  79,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_model_compact.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_model_compact.lua",
+                      "size":  2621,
+                      "sha256":  "2e02ce867207ac61c3001ac9c6770e7fbdccb04269899da8c43795f569ea28b3"
+                  },
+                  {
+                      "index":  80,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_onboarding.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_onboarding.lua",
+                      "size":  9969,
+                      "sha256":  "a426cd1631a26ce170c51e1e625de25d34f7de489ff4e8242fbca9d1c1ee36ee"
+                  },
+                  {
+                      "index":  81,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_onboarding_authority.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_onboarding_authority.lua",
+                      "size":  5405,
+                      "sha256":  "acc10737e2038d59fec6b81359585754a28b8372db9d3de329145ae0a1ece2cc"
+                  },
+                  {
+                      "index":  82,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_onboarding_commit.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_onboarding_commit.lua",
+                      "size":  6171,
+                      "sha256":  "e4376b9847081c246fa77ae261321c21703eae15bc80d66c70d904d45c534314"
+                  },
+                  {
+                      "index":  83,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_print.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_print.lua",
+                      "size":  2067,
+                      "sha256":  "c108f26ea8d2e4461952a7b4901153a8349c460c93f8ae50d27561943525a465"
+                  },
+                  {
+                      "index":  84,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_requests.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_requests.lua",
+                      "size":  1559,
+                      "sha256":  "3f138c52fe37ea32374f37ab540dc7e05e819e677fd1120f912a2745c82e51e4"
+                  },
+                  {
+                      "index":  85,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_store.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_store.lua",
+                      "size":  7288,
+                      "sha256":  "4e6dc7c4fe94395f38169d65fb01370ba203594766f00878057069ec98610fbc"
+                  },
+                  {
+                      "index":  86,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflow_store_io.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflow_store_io.lua",
+                      "size":  9008,
+                      "sha256":  "71073e50e6e1570b52fd5c5f4dc42db175017683e3ae992bf5d32af970ccf8cb"
+                  },
+                  {
+                      "index":  87,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/workflows.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/workflows.lua",
+                      "size":  4631,
+                      "sha256":  "bc9dc67d963c6e17d917a28241d0bd3f69a52c3abf49d9524e1f0008842a6d83"
+                  },
+                  {
+                      "index":  88,
+                      "system":  "ae2",
+                      "target":  "/usr/lib/oc/ae2/probe.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/lib/oc/ae2/probe.lua",
+                      "size":  3688,
+                      "sha256":  "731b7ba90240cb36fcb103835ffd5da8b296ba32846776dd8fefde3a3f2c86ba"
+                  },
+                  {
+                      "index":  89,
+                      "system":  "ae2",
+                      "target":  "/usr/bin/ae2-scan",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/bin/ae2-scan",
+                      "size":  288,
+                      "sha256":  "73c4ad4f088c0cae897d65019b705ff328e805159cf346076870064e6e3660f4"
+                  },
+                  {
+                      "index":  90,
+                      "system":  "ae2",
+                      "target":  "/usr/bin/ae2-probe",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/bin/ae2-probe",
+                      "size":  63,
+                      "sha256":  "5bdde904a7a4c804e28588df082af34e34a897fc075287cbd04b309b4dda096e"
+                  },
+                  {
+                      "index":  91,
+                      "system":  "ae2",
+                      "target":  "/usr/bin/ae2-craft-probe",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/bin/ae2-craft-probe",
+                      "size":  300,
+                      "sha256":  "5f5a723d854835557771571db2d0c4810532d55a6082d008268eebafc5773c0b"
+                  },
+                  {
+                      "index":  92,
+                      "system":  "ae2",
+                      "target":  "/usr/bin/ae2-maintainer",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/bin/ae2-maintainer",
+                      "size":  942,
+                      "sha256":  "58fc5c26971c5035c4af3492b995af4d8f4e799e9f3daec8d6ec2ab2d748e5b9"
+                  },
+                  {
+                      "index":  93,
+                      "system":  "ae2",
+                      "target":  "/usr/bin/ae2-workflow",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/usr/bin/ae2-workflow",
+                      "size":  5055,
+                      "sha256":  "a809141a507734f44ab08355cd271e7e317bf37c733ba5ff1dd5e07d39a5b08a"
+                  },
+                  {
+                      "index":  94,
+                      "system":  "ae2",
+                      "target":  "/etc/rc.d/oc-ae2.lua",
+                      "sourceBuildPath":  "dist/ae2/0.1.56/root/etc/rc.d/oc-ae2.lua",
+                      "size":  635,
+                      "sha256":  "fadf5c9a35f1ffde36187437b66bf494fdfcbf2ccfb55470484b9f722b76b2f3"
+                  },
+                  {
+                      "index":  95,
+                      "system":  "gt_power",
+                      "target":  "/usr/lib/oc/gt_power/adapter.lua",
+                      "sourceBuildPath":  "dist/gt_power/0.1.0/root/usr/lib/oc/gt_power/adapter.lua",
+                      "size":  8341,
+                      "sha256":  "4cd219567544a2b6485df8f23c786ef9c575ce950c5ffb17beb9db27d330f671"
+                  },
+                  {
+                      "index":  96,
+                      "system":  "gt_power",
+                      "target":  "/usr/lib/oc/gt_power/monitor.lua",
+                      "sourceBuildPath":  "dist/gt_power/0.1.0/root/usr/lib/oc/gt_power/monitor.lua",
+                      "size":  4440,
+                      "sha256":  "04d2a66b6a9c73a1a2cfb9b0e90c8415fb49e524628d624d1ffc90afb8c89eb8"
+                  },
+                  {
+                      "index":  97,
+                      "system":  "gt_power",
+                      "target":  "/usr/lib/oc/gt_power/probe.lua",
+                      "sourceBuildPath":  "dist/gt_power/0.1.0/root/usr/lib/oc/gt_power/probe.lua",
+                      "size":  2448,
+                      "sha256":  "832b3b2fe1d1ea5b04886429b38928c110de59d406a5955817b53c56039c600f"
+                  },
+                  {
+                      "index":  98,
+                      "system":  "gt_power",
+                      "target":  "/usr/bin/gt-probe",
+                      "sourceBuildPath":  "dist/gt_power/0.1.0/root/usr/bin/gt-probe",
+                      "size":  68,
+                      "sha256":  "2fb1dbb776807dbc5b3317f909ae9e226817c1275dcf54d24c226e4d2b5f7de3"
+                  },
+                  {
+                      "index":  99,
+                      "system":  "gt_power",
+                      "target":  "/usr/bin/power-status",
+                      "sourceBuildPath":  "dist/gt_power/0.1.0/root/usr/bin/power-status",
+                      "size":  143,
+                      "sha256":  "a57cf9cbc4c57d3c479ab67466a284e9fe5ad1631a55b61f5599b68504df2787"
+                  },
+                  {
+                      "index":  100,
+                      "system":  "gt_power",
+                      "target":  "/etc/rc.d/oc-gt-power.lua",
+                      "sourceBuildPath":  "dist/gt_power/0.1.0/root/etc/rc.d/oc-gt-power.lua",
+                      "size":  515,
+                      "sha256":  "468ed28536a84d88aec01c3df80787782516a69e13dc63228898602460ff9551"
+                  },
+                  {
+                      "index":  101,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/app.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/app.lua",
+                      "size":  8212,
+                      "sha256":  "d0b36eaa59a910ea42832340b4870428465e425bac6e90d0fb5ec8931160b383"
+                  },
+                  {
+                      "index":  102,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/cache.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/cache.lua",
+                      "size":  1770,
+                      "sha256":  "5878f7cc44e348852369e9f98cb30a5d669073cc1776210bf4d503d07a5f5627"
+                  },
+                  {
+                      "index":  103,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/config_migration_io.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/config_migration_io.lua",
+                      "size":  9314,
+                      "sha256":  "ddacf272a05e4d64835edadc3351ed412c175ed36651dae4ff91f44c771d1322"
+                  },
+                  {
+                      "index":  104,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/config_migration_policy.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/config_migration_policy.lua",
+                      "size":  1783,
+                      "sha256":  "ca80244053d69b1bccbcb1f91ae676727e0310ec2d7ecc237c966f2a0c4db503"
+                  },
+                  {
+                      "index":  105,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/config_migration.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/config_migration.lua",
+                      "size":  12759,
+                      "sha256":  "a911343e9ff2cdfcc9ae554ece049680862cf25f3d0313b4924657ebc91f4c5a"
+                  },
+                  {
+                      "index":  106,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/canvas.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/canvas.lua",
+                      "size":  4551,
+                      "sha256":  "ccb9255a1cca64585c0cd781519be59a1f9de3ea4b0472dbc09978d4f5edd66a"
+                  },
+                  {
+                      "index":  107,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/data.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/data.lua",
+                      "size":  1653,
+                      "sha256":  "fd3371a65194ecc6942642f0075a891d6bec416a308071a2fe9c3a61fca0f84d"
+                  },
+                  {
+                      "index":  108,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/data_ae2.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/data_ae2.lua",
+                      "size":  11377,
+                      "sha256":  "a4e5beb8a27633d68194a04e7fb8aabdab092f61d3ec5bd2a7886d7a4fa7e151"
+                  },
+                  {
+                      "index":  109,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/data_ae2_maintainer.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/data_ae2_maintainer.lua",
+                      "size":  13363,
+                      "sha256":  "c6f84d78eb159a533aab5e97121c57dd1a1aff36668a20cce445aa404adb0380"
+                  },
+                  {
+                      "index":  110,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/data_ae2_maintainer_support.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/data_ae2_maintainer_support.lua",
+                      "size":  7275,
+                      "sha256":  "11967acf4270bb576126ce9225ea3dd87260abee5d95385a59fc7fc2f066599c"
+                  },
+                  {
+                      "index":  111,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/data_core.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/data_core.lua",
+                      "size":  1879,
+                      "sha256":  "39e5ea2c8056471a1480f2228f358a6512f21c4c881f4be2b26cefff9517821d"
+                  },
+                  {
+                      "index":  112,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/data_power.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/data_power.lua",
+                      "size":  1915,
+                      "sha256":  "8823ba5fa0beb280588cb38b4649f764839c1a2f0c665b6020f9d6b4726dc8ee"
+                  },
+                  {
+                      "index":  113,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/data_schedule.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/data_schedule.lua",
+                      "size":  3367,
+                      "sha256":  "f645ed1c9855614283bb1bfb298e4ad5697599aec300889a8357113b096b016e"
+                  },
+                  {
+                      "index":  114,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/data_state.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/data_state.lua",
+                      "size":  1919,
+                      "sha256":  "afb79abfeff8f527de299176776dacac3fdced8633d73d1bd236ad21be93f4e2"
+                  },
+                  {
+                      "index":  115,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/title.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/title.lua",
+                      "size":  1225,
+                      "sha256":  "a2bc7cb8757fdb54def05174c1c605936e22e41fb13d124cc573fcca90d56482"
+                  },
+                  {
+                      "index":  116,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/title_editor.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/title_editor.lua",
+                      "size":  2059,
+                      "sha256":  "adb51a1f83beef8f20f78b81fcab1988c6c912f534ef831cf27861aaa9e7abcb"
+                  },
+                  {
+                      "index":  117,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/power_title.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/power_title.lua",
+                      "size":  1234,
+                      "sha256":  "296a6510b9214abf50b808d8c6aa2906e1702cabf6f6286b2d5903f4eef6101e"
+                  },
+                  {
+                      "index":  118,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/power_title_editor.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/power_title_editor.lua",
+                      "size":  2089,
+                      "sha256":  "cd7a9aa3f8e61ffa8c527a6290f9cd8050071988a2a904accc8e93d72d740034"
+                  },
+                  {
+                      "index":  119,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_data.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_data.lua",
+                      "size":  3741,
+                      "sha256":  "c1e8c90ea6ec904c58b9aa8108b9895b641f7b88f9f03487f4be04eac2995c98"
+                  },
+                  {
+                      "index":  120,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_setup.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_setup.lua",
+                      "size":  8263,
+                      "sha256":  "bc27c0c140c09b82d3bb14c82234d31adc01d8cb9334bdeee42aef9c101864e8"
+                  },
+                  {
+                      "index":  121,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_setup_lifecycle.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_setup_lifecycle.lua",
+                      "size":  6375,
+                      "sha256":  "a87778bd2b41dc3d570f3a3419f5d21ad374c3c30d9cd5c0973d99a5630d7b4e"
+                  },
+                  {
+                      "index":  122,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_setup_input.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_setup_input.lua",
+                      "size":  3470,
+                      "sha256":  "b1c90dff8b98afb0323135a00e0ab347fe34a9e31fa2154f41c582b6a5b8ccab"
+                  },
+                  {
+                      "index":  123,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/screen.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/screen.lua",
+                      "size":  4498,
+                      "sha256":  "0e079c84e2f1141c2c144568e363a563293a450ff20e395d058bea30f9b6e168"
+                  },
+                  {
+                      "index":  124,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/pages.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/pages.lua",
+                      "size":  7030,
+                      "sha256":  "f6a7717f5ef2ca56dffb43638e77dede59d3c687ee78250886389d8b01c31f9f"
+                  },
+                  {
+                      "index":  125,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/pages_ae2.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/pages_ae2.lua",
+                      "size":  8019,
+                      "sha256":  "e76e87efb9ef2c51a919d3e5666052d324eeb9c9083b8fd63d6f31c7696a8eb0"
+                  },
+                  {
+                      "index":  126,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/style.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/style.lua",
+                      "size":  4853,
+                      "sha256":  "93b43b0f1a029d040a1d7a6ab5c1b4c95d8a2c0948c398bb1658b4d4f80d649c"
+                  },
+                  {
+                      "index":  127,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/number_format.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/number_format.lua",
+                      "size":  1785,
+                      "sha256":  "fec8c9debe7c0f341246b00f18e64508df298722f99691a0edf5d153fd411e62"
+                  },
+                  {
+                      "index":  128,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/action_bar.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/action_bar.lua",
+                      "size":  1900,
+                      "sha256":  "26570edb28d10d3bb65ed168e0086ed0a6773e51f4616513323977135de0980f"
+                  },
+                  {
+                      "index":  129,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/operator_status.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/operator_status.lua",
+                      "size":  8158,
+                      "sha256":  "17a8c15a8e21fbf1ab9c0d145e1480ac2d14d7592da35628696bb36c881b000c"
+                  },
+                  {
+                      "index":  130,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/operator_status_cpu.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/operator_status_cpu.lua",
+                      "size":  2667,
+                      "sha256":  "4d3c3ab77a74dae43d7eb27b7f53ed91b81520ef400554b02a7d0a6427841f11"
+                  },
+                  {
+                      "index":  131,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/ae2_page_sections.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/ae2_page_sections.lua",
+                      "size":  1836,
+                      "sha256":  "5e1739c85c10e5abb003bea16ba8d627d1524274e39a1260f3f8114eb77a558d"
+                  },
+                  {
+                      "index":  132,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/cpu_status.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/cpu_status.lua",
+                      "size":  3579,
+                      "sha256":  "f63c8e751729231d548253868952ca3d4076fe75f8c605c3d0b6f8a642d0cc07"
+                  },
+                  {
+                      "index":  133,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/manual_request_memory.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/manual_request_memory.lua",
+                      "size":  3783,
+                      "sha256":  "05a418c56ba509d2efa120fb269b3a7c864a13ca0cfe27ced797e58a968f8bc0"
+                  },
+                  {
+                      "index":  134,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/deck_blocks.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/deck_blocks.lua",
+                      "size":  11461,
+                      "sha256":  "7e5a45de70ee7b6208744ecc9319960f86f97d03d3eace43268339e333d38d77"
+                  },
+                  {
+                      "index":  135,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/deck_blocks_time.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/deck_blocks_time.lua",
+                      "size":  949,
+                      "sha256":  "908548319ae3399898ec4a7e2c60d1f144842bdf67e4af1c34bcec688ada4ac2"
+                  },
+                  {
+                      "index":  136,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/stock.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/stock.lua",
+                      "size":  5587,
+                      "sha256":  "31ab4b7cc1938d90e7bf6e6531c185afe4277e8dc28863efe52e3ecff037ee02"
+                  },
+                  {
+                      "index":  137,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/alerts.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/alerts.lua",
+                      "size":  3291,
+                      "sha256":  "0f15c4e53ffaadd561c8b92239b9980e7056b4628d3a0d109f3a055ff1c4e2e8"
+                  },
+                  {
+                      "index":  138,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/maintainer_page.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/maintainer_page.lua",
+                      "size":  10592,
+                      "sha256":  "79d3558d277f9b19fd15eaaa57e20c648b014f157fe2e5b2b9dd9b5c75bed01f"
+                  },
+                  {
+                      "index":  139,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/maintainer_daemon_page.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/maintainer_daemon_page.lua",
+                      "size":  8683,
+                      "sha256":  "336ae713125f3f4369f738453855d4e2f50cefc46ab7d4de7ca021d44e5276f6"
+                  },
+                  {
+                      "index":  140,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/maintainer_ui_actions.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/maintainer_ui_actions.lua",
+                      "size":  8681,
+                      "sha256":  "ce121acf2ab420a1289274dac7436394cf2ab4c7cd038791a0abec0c493f41b9"
+                  },
+                  {
+                      "index":  141,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/maintainer_ui_receipt.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/maintainer_ui_receipt.lua",
+                      "size":  945,
+                      "sha256":  "13f820c7fa838022d8db84342aef7505106a6c4364bb1ce78b5c35f0408782f0"
+                  },
+                  {
+                      "index":  142,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/maintainer_ui_bulk.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/maintainer_ui_bulk.lua",
+                      "size":  4060,
+                      "sha256":  "8a74501a61c4f743bda309aec36a8c48e21636e88e927a69a9f87ea2cd68a14f"
+                  },
+                  {
+                      "index":  143,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/maintainer_ui_daemon.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/maintainer_ui_daemon.lua",
+                      "size":  5103,
+                      "sha256":  "677127f1eb9428022ce06cc99d8c98d817d9138f2a0dcaec3656a13b94dc62e2"
+                  },
+                  {
+                      "index":  144,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/maintainer_ui_list.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/maintainer_ui_list.lua",
+                      "size":  4959,
+                      "sha256":  "3153bebe02a6c8365a56bd06722b6c6c7b4eb6bce1cd9586dc8616229310bc2e"
+                  },
+                  {
+                      "index":  145,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/maintainer_ui_search.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/maintainer_ui_search.lua",
+                      "size":  1757,
+                      "sha256":  "a381e38d3d51cd5d77e9905404bdc52606240fb5f19702ca5a11e7c0c841fade"
+                  },
+                  {
+                      "index":  146,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/maintainer_ui.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/maintainer_ui.lua",
+                      "size":  4377,
+                      "sha256":  "358daf1672625d4a4801b11a95e502263066c27b47b25dc8d754db205427b5e5"
+                  },
+                  {
+                      "index":  147,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/ops_page.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/ops_page.lua",
+                      "size":  5742,
+                      "sha256":  "b6b2b84033cba92e8e46f3d99b3f37a7136c065a5ea915a03fc0b49c89b1849f"
+                  },
+                  {
+                      "index":  148,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/new_user_reset.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/new_user_reset.lua",
+                      "size":  6053,
+                      "sha256":  "3299f3ed97026ba29ccbf7501750d66db78e0c571b6071dea84d130608ee0520"
+                  },
+                  {
+                      "index":  149,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/performance.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/performance.lua",
+                      "size":  4592,
+                      "sha256":  "23aaf9a699912843e968b7e1623ea87b4915ea1ff98294954c4ee4cc5d6562c1"
+                  },
+                  {
+                      "index":  150,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/subtabs.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/subtabs.lua",
+                      "size":  2216,
+                      "sha256":  "de4ffe032885874c22c9d5a878b0ef23853c60f07d441121044e438c1bc0627b"
+                  },
+                  {
+                      "index":  151,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_page.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_page.lua",
+                      "size":  524,
+                      "sha256":  "033657e82881342275033506b0856b05f46c7d9d5b2a1897a37da62b78337e5c"
+                  },
+                  {
+                      "index":  152,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_page_list.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_page_list.lua",
+                      "size":  5553,
+                      "sha256":  "02006abdfbe76e262c95d40860a9e54b661701954d8e69b1c92d247dbf5666e7"
+                  },
+                  {
+                      "index":  153,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_page_detail.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_page_detail.lua",
+                      "size":  11923,
+                      "sha256":  "7e113e151401d9ad2d08be6e54c3be2e757ba8936734f65121d33d40ac56d4ec"
+                  },
+                  {
+                      "index":  154,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_setup_page.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_setup_page.lua",
+                      "size":  13036,
+                      "sha256":  "4710cd0b713d7931ea69244339e412ac59969c2a7ec121c8adb03f640dfbfd9b"
+                  },
+                  {
+                      "index":  155,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_page_detail_columns.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_page_detail_columns.lua",
+                      "size":  2931,
+                      "sha256":  "7b0f501206dbd71088739785535b13f13149b090492b2530a84f96bf2c33cc3b"
+                  },
+                  {
+                      "index":  156,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_page_detail_hint.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_page_detail_hint.lua",
+                      "size":  3717,
+                      "sha256":  "9f4bc5770b35766396aebd6e36f74ca9afbe430c59e2e78c4a8cde0e4dc10465"
+                  },
+                  {
+                      "index":  157,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_ui_actions.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_ui_actions.lua",
+                      "size":  5606,
+                      "sha256":  "788b2bef13d4267c084a05c0bdbe586e00d22fa75e83c53843af913fed0884a2"
+                  },
+                  {
+                      "index":  158,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_ui_sync.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_ui_sync.lua",
+                      "size":  4963,
+                      "sha256":  "d96c1917ecb4d56b92fe1ba4a8d141e533aed393eb6da0ed2c7ca04f5939e6c0"
+                  },
+                  {
+                      "index":  159,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_ui_list.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_ui_list.lua",
+                      "size":  4277,
+                      "sha256":  "e38219a9c7c15ebdddc6f9f9217ce0e68e7f5fa6905b1744bb5eb8f5a0e8b9c3"
+                  },
+                  {
+                      "index":  160,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_ui_search.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_ui_search.lua",
+                      "size":  2646,
+                      "sha256":  "3700bb42b591a3f6044d44d924d3b0209d49bcc12c45452c1252ca9e7514c6d5"
+                  },
+                  {
+                      "index":  161,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/workflow_ui.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/workflow_ui.lua",
+                      "size":  9890,
+                      "sha256":  "ece52a62768e1b883a3597e83f046e6f73e05f943a93f8c42cf1fb267d6d9faf"
+                  },
+                  {
+                      "index":  162,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/tabs.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/tabs.lua",
+                      "size":  3084,
+                      "sha256":  "115ab693ffc6c0fcb51a950f4a2ccf457710e4ef359c5884cf569b71d32022f6"
+                  },
+                  {
+                      "index":  163,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/initiative_editor.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/initiative_editor.lua",
+                      "size":  4555,
+                      "sha256":  "c872f4364fc171f6f2b29480c80cfc0030e2f30ea3e6abb1270a97489272a197"
+                  },
+                  {
+                      "index":  164,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/initiatives.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/initiatives.lua",
+                      "size":  2728,
+                      "sha256":  "433f1db56184a265da266101e1c856d55d38b097abb825bca39963ad6f3677f3"
+                  },
+                  {
+                      "index":  165,
+                      "system":  "dashboard",
+                      "target":  "/usr/lib/oc/dashboard/views.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/lib/oc/dashboard/views.lua",
+                      "size":  5725,
+                      "sha256":  "f28c7819cecbecdd425e259a11b1e3e7c5ce371a31f32f678d7bb1753afed37f"
+                  },
+                  {
+                      "index":  166,
+                      "system":  "dashboard",
+                      "target":  "/usr/bin/oc-dashboard",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/bin/oc-dashboard",
+                      "size":  100,
+                      "sha256":  "c4f6580e109b0bbf4bc104c5e8602a4fc8f7b55882e8c0e95027b560ddf4e811"
+                  },
+                  {
+                      "index":  167,
+                      "system":  "dashboard",
+                      "target":  "/usr/bin/oc-config-migrate",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/bin/oc-config-migrate",
+                      "size":  13931,
+                      "sha256":  "97edbda71ca2f301a4bbfc878d6e14725ba14a1a3cd2c463b1ae9c49e3452058"
+                  },
+                  {
+                      "index":  168,
+                      "system":  "dashboard",
+                      "target":  "/usr/bin/oc-screen-full",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/usr/bin/oc-screen-full",
+                      "size":  738,
+                      "sha256":  "043a3a6af486c5ca2b2bcf4d1ba2c91cfd6ba9b3916128215ea57378b81ed862"
+                  },
+                  {
+                      "index":  169,
+                      "system":  "dashboard",
+                      "target":  "/etc/rc.d/oc-screen.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/etc/rc.d/oc-screen.lua",
+                      "size":  1135,
+                      "sha256":  "870a24d24724f5bb51e08e252c7fc5aeb5a18e7ed0c76d83a69b8997f84b456e"
+                  },
+                  {
+                      "index":  170,
+                      "system":  "dashboard",
+                      "target":  "/home/dashboard.lua",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/home/dashboard.lua",
+                      "size":  89,
+                      "sha256":  "8c54f831bfecc43b37e350a035d835b010a06980838d98913625ff4e523ecd43"
+                  },
+                  {
+                      "index":  171,
+                      "system":  "dashboard",
+                      "target":  "/home/.shrc",
+                      "sourceBuildPath":  "dist/dashboard/0.1.58/root/home/.shrc",
+                      "size":  24,
+                      "sha256":  "80179f0f67a5d9c56102f539f3868a1d5de240e5cdafedd351c7d5b25b4b8b3c"
+                  },
+                  {
+                      "index":  172,
+                      "system":  "commands",
+                      "target":  "/usr/lib/oc/commands/catalog.lua",
+                      "sourceBuildPath":  "dist/commands/0.1.8/root/usr/lib/oc/commands/catalog.lua",
+                      "size":  4364,
+                      "sha256":  "07fb241391383663b11d66d5e9700c7cfe6a806a62d187d09a2a4c0ba12efcaa"
+                  },
+                  {
+                      "index":  173,
+                      "system":  "commands",
+                      "target":  "/usr/bin/commands",
+                      "sourceBuildPath":  "dist/commands/0.1.8/root/usr/bin/commands",
+                      "size":  101,
+                      "sha256":  "06212148322ebd252281192a4276670bc0fe3b05a789b68c05e861dcf88f0a62"
+                  }
+              ]
+}
