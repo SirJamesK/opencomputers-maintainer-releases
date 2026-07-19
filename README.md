@@ -11,8 +11,13 @@ deployment identities.
 
 Current release:
 
-- `maintainer-c0.1.2-a0.1.56-g0.1.0-d0.1.58-x0.1.8-71fbbe8c658d`
+- `maintainer-c0.1.2-a0.1.56-g0.1.0-d0.1.59-x0.1.8-24feb3ca9cdd`
 - 173 managed files
+- Bundle SHA-256: `86b62e165722eb20ea9e63b0f7fba67154111cac6b43dbbddbe3de34da821f27`
+
+Previous verified release:
+
+- `maintainer-c0.1.2-a0.1.56-g0.1.0-d0.1.58-x0.1.8-71fbbe8c658d`
 - Bundle SHA-256: `b70e07bbb9333bcef0f9106d372af17fcf1f97505f1e56e683c3cd378527e357`
 
 Superseded release:
