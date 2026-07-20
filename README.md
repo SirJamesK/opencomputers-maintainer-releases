@@ -11,15 +11,15 @@ deployment identities.
 
 Current release:
 
-- `maintainer-c0.1.2-a0.1.59-g0.1.0-d0.1.62-x0.1.8-b8ac7f191cbc`
-- 173 managed files
-- Artifact commit: `ce5d28e7f3d3d8e94be42b530c53f2e091abfd7e`
-- Bundle SHA-256: `6b94887478afa8b0c23875446553f2115e0d443caa06f4500659d66f8e77cae4`
+- `maintainer-c0.1.2-a0.1.60-g0.1.0-d0.1.63-x0.1.8-65c5e4bf031f`
+- 174 managed files
+- Artifact commit: `1551744d3589321355f7b216b24a07980d1047fb`
+- Bundle SHA-256: `6aa1ffa652e4fa51632448f3fc20541a6dc53852174a30be64c67f4acea1200d`
 
 Previous release:
 
-- `maintainer-c0.1.2-a0.1.57-g0.1.0-d0.1.60-x0.1.8-cdcc24edc0ae`
-- Bundle SHA-256: `408a9724823670e5e82f22d60cf7d8ed07af622e6d63a9e712ff5e2968c3fccf`
+- `maintainer-c0.1.2-a0.1.59-g0.1.0-d0.1.62-x0.1.8-b8ac7f191cbc`
+- Bundle SHA-256: `6b94887478afa8b0c23875446553f2115e0d443caa06f4500659d66f8e77cae4`
 
 Superseded releases:
 
