@@ -11,10 +11,10 @@ deployment identities.
 
 Current release:
 
-- `maintainer-c0.1.2-a0.1.67-g0.1.0-d0.1.70-x0.1.10-d7a06017a26d`
+- `maintainer-c0.1.2-a0.1.68-g0.1.0-d0.1.71-x0.1.10-510ad6407eae`
 - 178 managed files
-- Artifact commit: `9de654203e87b72b2a4c52956ea636b14c4d6861`
-- Bundle SHA-256: `96d897577837de639e616518671cb56ef03d45b5b7561d24d9ed1835305c2b38`
+- Artifact commit: `8eb7c57f561daecb74a8189ffac0cda73b2c312c`
+- Bundle SHA-256: `e305ec604425a9972eb31e471d9fe87907af2feb2fd1c6f4ea2281b99425e58f`
 
 Previous releases:
 
@@ -25,6 +25,11 @@ Previous releases:
 - Bundle SHA-256: `acc23e4e30c61bc6e868e86d0ad3a5c25fc03787de48e35574cb0c337eca38e4`
 
 Superseded releases:
+
+- `maintainer-c0.1.2-a0.1.67-g0.1.0-d0.1.70-x0.1.10-d7a06017a26d`
+  falsely treated a valid OpenOS no-return runtime-state file close as failure,
+  which could leave the GTNH 2.8.4 Craft API selector locked. It must not be
+  used for new deployments.
 
 - `maintainer-c0.1.2-a0.1.58-g0.1.0-d0.1.61-x0.1.8-e503776e335e`
   rejected valid OpenOS callable-table Craftable methods during exact State 5
