@@ -9,14 +9,27 @@ Release directories are append-only. Operators must use URLs pinned to the full
 an in-game deployment. Branch names, `latest`, and movable tags are not trusted
 deployment identities.
 
+Use only the release-specific `OPENOS-UPDATE-COMMANDS.md` linked below. It
+contains the commit-pinned download, stage, physical power-cycle, apply,
+fresh-process verification, finalize, and rollback sequence. The updater is for
+an already-initialized Maintainer OpenOS host with an Internet Card and the
+Maintainer daemon OFF; it is not a pristine-disk bootstrap.
+
 Current release:
+
+- `maintainer-c0.1.2-a0.1.72-g0.1.0-d0.1.75-x0.1.11-841a99e4cc1e`
+- Systems: Core `0.1.2`, AE2 `0.1.72`, GT Power `0.1.0`, Dashboard `0.1.75`, Commands `0.1.11`
+- 182 managed files
+- Artifact commit: `74dc89e02cf835c93dc313eb8706378dcd9db3cf`
+- Bundle SHA-256: `0db21c33cb11f4ed3f391e1d334f800ebb7c22f50fc5e9d49c3c2c817ad831e6`
+- [Full OpenOS download and update steps](releases/maintainer-c0.1.2-a0.1.72-g0.1.0-d0.1.75-x0.1.11-841a99e4cc1e/OPENOS-UPDATE-COMMANDS.md)
+
+Previous releases:
 
 - `maintainer-c0.1.2-a0.1.71-g0.1.0-d0.1.74-x0.1.11-dab374eae28b`
 - 182 managed files
 - Artifact commit: `6adfb198e5a6992daaa29dcdb67a17f10057e764`
 - Bundle SHA-256: `91e8552d3af1c68641a11f7c1af455902b3911335e257131bbdb6883601e38f1`
-
-Previous releases:
 
 - `maintainer-c0.1.2-a0.1.70-g0.1.0-d0.1.73-x0.1.11-87e2cfcef07f`
 - 182 managed files
