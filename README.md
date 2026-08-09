@@ -17,14 +17,21 @@ Maintainer daemon OFF; it is not a pristine-disk bootstrap.
 
 Current release:
 
+- `maintainer-c0.2.1-a0.1.88-g0.1.1-d0.1.92-x0.1.16-c42dbaa51eb6`
+- Systems: Core `0.2.1`, AE2 `0.1.88`, GT Power `0.1.1`, Dashboard `0.1.92`, Commands `0.1.16`
+- 212 managed files
+- Artifact commit: `84502fceb2e23d72f04e3ddc9b63a465d4ae03d2`
+- Bundle SHA-256: `9061948cb1e60c087dc739a8eeea4e4b88c4a5f3a77cb0326e43014969e1da2a`
+- [Full OpenOS download and update steps](releases/maintainer-c0.2.1-a0.1.88-g0.1.1-d0.1.92-x0.1.16-c42dbaa51eb6/OPENOS-UPDATE-COMMANDS.md)
+
+Previous releases:
+
 - `maintainer-c0.2.1-a0.1.87-g0.1.1-d0.1.91-x0.1.16-d3f09c68b17b`
 - Systems: Core `0.2.1`, AE2 `0.1.87`, GT Power `0.1.1`, Dashboard `0.1.91`, Commands `0.1.16`
 - 212 managed files
 - Artifact commit: `7f406ddb953ee66f49602387c016d6f8f5a722dc`
 - Bundle SHA-256: `514d0c99dd0c9f002020efccf04ca90cca26e6ab1e6cb51699d0ac6282c547d2`
 - [Full OpenOS download and update steps](releases/maintainer-c0.2.1-a0.1.87-g0.1.1-d0.1.91-x0.1.16-d3f09c68b17b/OPENOS-UPDATE-COMMANDS.md)
-
-Previous releases:
 
 - `maintainer-c0.2.1-a0.1.86-g0.1.1-d0.1.90-x0.1.16-596f69b94f1b`
 - Systems: Core `0.2.1`, AE2 `0.1.86`, GT Power `0.1.1`, Dashboard `0.1.90`, Commands `0.1.16`
