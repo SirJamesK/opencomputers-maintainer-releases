@@ -12,10 +12,21 @@ deployment identities.
 Use only the release-specific `OPENOS-UPDATE-COMMANDS.md` linked below. It
 contains the commit-pinned download, stage, physical power-cycle, apply,
 fresh-process verification, finalize, and rollback sequence. The updater is for
-an already-initialized Maintainer OpenOS host with an Internet Card and the
-Maintainer daemon OFF; it is not a pristine-disk bootstrap.
+an already-initialized Maintainer OpenOS host with an Internet Card and no live
+Dashboard, Maintainer, or installer process. It preserves desired daemon and
+profile policy behind its release-owned inhibit; it is not a pristine-disk
+bootstrap.
 
 Current release:
+
+- `maintainer-c0.2.3-a0.1.91-g0.1.1-d0.1.96-x0.1.19-ae76d986c0f8`
+- Systems: Core `0.2.3`, AE2 `0.1.91`, GT Power `0.1.1`, Dashboard `0.1.96`, Commands `0.1.19`
+- 255 managed files
+- Artifact commit: `b114c311cfab9955334d9873768913be1b2144bb`
+- Bundle SHA-256: `4cfd272c02ce691e9a414b7df10d015dd72ecc5327fe7f7648365c4f8fb8bf52`
+- [Full OpenOS download and update steps](releases/maintainer-c0.2.3-a0.1.91-g0.1.1-d0.1.96-x0.1.19-ae76d986c0f8/OPENOS-UPDATE-COMMANDS.md)
+
+Previous releases:
 
 - `maintainer-c0.2.2-a0.1.90-g0.1.1-d0.1.95-x0.1.18-6cb40c962b4c`
 - Systems: Core `0.2.2`, AE2 `0.1.90`, GT Power `0.1.1`, Dashboard `0.1.95`, Commands `0.1.18`
@@ -23,8 +34,6 @@ Current release:
 - Artifact commit: `d9b6e5695b4ef447c95cfb8f481cfa75e39bb11e`
 - Bundle SHA-256: `2bd9fd64e85d4fcc4e2ab16a1df1617c9e5dee03a9b6f606e1eacd2d63d1605f`
 - [Full OpenOS download and update steps](releases/maintainer-c0.2.2-a0.1.90-g0.1.1-d0.1.95-x0.1.18-6cb40c962b4c/OPENOS-UPDATE-COMMANDS.md)
-
-Previous releases:
 
 - `maintainer-c0.2.2-a0.1.89-g0.1.1-d0.1.94-x0.1.17-8b03cdc7a533`
 - Systems: Core `0.2.2`, AE2 `0.1.89`, GT Power `0.1.1`, Dashboard `0.1.94`, Commands `0.1.17`
