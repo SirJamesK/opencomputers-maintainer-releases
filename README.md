@@ -19,14 +19,21 @@ bootstrap.
 
 Current release:
 
+- `maintainer-c0.2.3-a0.1.99-g0.1.1-d0.1.104-x0.1.20-6e6e85bc830d`
+- Systems: Core `0.2.3`, AE2 `0.1.99`, GT Power `0.1.1`, Dashboard `0.1.104`, Commands `0.1.20`
+- 264 managed files
+- Artifact commit: `8c1e385e18d5c51c19f701e5aa1c5291850b3da4`
+- Bundle SHA-256: `59b6345f4a67c33ea9a907405ea5c61f34ad8072d5ba9d7f9acdb447ad9b0b03`
+- [Full OpenOS download and update steps](releases/maintainer-c0.2.3-a0.1.99-g0.1.1-d0.1.104-x0.1.20-6e6e85bc830d/OPENOS-UPDATE-COMMANDS.md)
+
+Previous releases:
+
 - `maintainer-c0.2.3-a0.1.98-g0.1.1-d0.1.103-x0.1.20-83e9e20471c5`
 - Systems: Core `0.2.3`, AE2 `0.1.98`, GT Power `0.1.1`, Dashboard `0.1.103`, Commands `0.1.20`
 - 264 managed files
 - Artifact commit: `0f748d8ce3dfdf42380eed7c4ee3e7cdbbce85f1`
 - Bundle SHA-256: `bae4655d21cbf2ea2eb442036ea4ffbf8a757ecd380378a2b7b2086870989251`
 - [Full OpenOS download and update steps](releases/maintainer-c0.2.3-a0.1.98-g0.1.1-d0.1.103-x0.1.20-83e9e20471c5/OPENOS-UPDATE-COMMANDS.md)
-
-Previous releases:
 
 - `maintainer-c0.2.3-a0.1.95-g0.1.1-d0.1.100-x0.1.20-b675974fa026`
 - Systems: Core `0.2.3`, AE2 `0.1.95`, GT Power `0.1.1`, Dashboard `0.1.100`, Commands `0.1.20`
