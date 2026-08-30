@@ -19,14 +19,24 @@ bootstrap.
 
 Current release:
 
+- `maintainer-c0.2.3-a0.1.101-g0.1.1-d0.1.106-x0.1.21-be4ba4bedf34`
+- Systems: Core `0.2.3`, AE2 `0.1.101`, GT Power `0.1.1`, Dashboard `0.1.106`, Commands `0.1.21`
+- 265 managed files
+- Artifact commit: `40b839c8c143066932a760a99a8394f095bb3eef`
+- Bundle SHA-256: `2b6226ab6154b83898a7ce40ba9163551c50c03844a8ff9376135d2fe1b8dce0`
+- [Full OpenOS download and update steps](releases/maintainer-c0.2.3-a0.1.101-g0.1.1-d0.1.106-x0.1.21-be4ba4bedf34/OPENOS-UPDATE-COMMANDS.md)
+
+Previous releases:
+
 - `maintainer-c0.2.3-a0.1.100-g0.1.1-d0.1.105-x0.1.21-862a5d717876`
 - Systems: Core `0.2.3`, AE2 `0.1.100`, GT Power `0.1.1`, Dashboard `0.1.105`, Commands `0.1.21`
 - 264 managed files
 - Artifact commit: `3251ead73fd3e6778f9c464048fa7567aa5638e2`
 - Bundle SHA-256: `d60d69a1cc7cb8c00acfb45bc2c1d6c4ea73912185c6424930a5ffae9f6223de`
 - [Full OpenOS download and update steps](releases/maintainer-c0.2.3-a0.1.100-g0.1.1-d0.1.105-x0.1.21-862a5d717876/OPENOS-UPDATE-COMMANDS.md)
-
-Previous releases:
+- Superseded for new deployments: its post-install finalizer can remain in
+  `FINALIZING` behind a live config-migration owner. Use the current release
+  sheet's predecessor-recovery section before replacing its pinned installer.
 
 - `maintainer-c0.2.3-a0.1.99-g0.1.1-d0.1.104-x0.1.20-6e6e85bc830d`
 - Systems: Core `0.2.3`, AE2 `0.1.99`, GT Power `0.1.1`, Dashboard `0.1.104`, Commands `0.1.20`
