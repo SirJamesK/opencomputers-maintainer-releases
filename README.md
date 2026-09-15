@@ -19,14 +19,22 @@ bootstrap.
 
 Current release:
 
+- `maintainer-c0.2.3-a0.1.102-g0.1.1-d0.1.107-x0.1.21-280ae777749b`
+- Systems: Core `0.2.3`, AE2 `0.1.102`, GT Power `0.1.1`, Dashboard `0.1.107`, Commands `0.1.21`
+- 266 managed files
+- Artifact commit: `a09908763bc8194bdf2958f8e984d32715a610c9`
+- Bundle SHA-256: `5154091cad7e25f1508fdb6cead1fdb4a5e9e6a938ede0ae8246b7b6f4d68832`
+- [Full OpenOS download and update steps](releases/maintainer-c0.2.3-a0.1.102-g0.1.1-d0.1.107-x0.1.21-280ae777749b/OPENOS-UPDATE-COMMANDS.md)
+- Source-verified GTNH 2.8.4 fluid setup: read-only wrapper repair, maintained fluid witnesses, and explicit waiting states for missing storage prerequisites.
+
+Previous releases:
+
 - `maintainer-c0.2.3-a0.1.101-g0.1.1-d0.1.106-x0.1.21-be4ba4bedf34`
 - Systems: Core `0.2.3`, AE2 `0.1.101`, GT Power `0.1.1`, Dashboard `0.1.106`, Commands `0.1.21`
 - 265 managed files
 - Artifact commit: `40b839c8c143066932a760a99a8394f095bb3eef`
 - Bundle SHA-256: `2b6226ab6154b83898a7ce40ba9163551c50c03844a8ff9376135d2fe1b8dce0`
 - [Full OpenOS download and update steps](releases/maintainer-c0.2.3-a0.1.101-g0.1.1-d0.1.106-x0.1.21-be4ba4bedf34/OPENOS-UPDATE-COMMANDS.md)
-
-Previous releases:
 
 - `maintainer-c0.2.3-a0.1.100-g0.1.1-d0.1.105-x0.1.21-862a5d717876`
 - Systems: Core `0.2.3`, AE2 `0.1.100`, GT Power `0.1.1`, Dashboard `0.1.105`, Commands `0.1.21`
