@@ -19,6 +19,16 @@ bootstrap.
 
 Current release:
 
+- `maintainer-c0.2.3-a0.1.103-g0.1.1-d0.1.108-x0.1.21-91430be945de`
+- Systems: Core `0.2.3`, AE2 `0.1.103`, GT Power `0.1.1`, Dashboard `0.1.108`, Commands `0.1.21`
+- 266 managed files
+- Artifact commit: `9ac942dbd2fc2aa2b9b2d678413f5f33acb889cd`
+- Bundle SHA-256: `7296136b5e559a5b8b9865da333c07180e24d5a97986e3a4a1a8aa0ee360dd45`
+- [Full OpenOS download and update steps](releases/maintainer-c0.2.3-a0.1.103-g0.1.1-d0.1.108-x0.1.21-91430be945de/OPENOS-UPDATE-COMMANDS.md)
+- Fixes the commissioning/Safe Stop lock loop and sealed-permission restoration; shows the original abort cause and current recovery blocker.
+
+Previous releases:
+
 - `maintainer-c0.2.3-a0.1.102-g0.1.1-d0.1.107-x0.1.21-280ae777749b`
 - Systems: Core `0.2.3`, AE2 `0.1.102`, GT Power `0.1.1`, Dashboard `0.1.107`, Commands `0.1.21`
 - 266 managed files
@@ -26,8 +36,7 @@ Current release:
 - Bundle SHA-256: `5154091cad7e25f1508fdb6cead1fdb4a5e9e6a938ede0ae8246b7b6f4d68832`
 - [Full OpenOS download and update steps](releases/maintainer-c0.2.3-a0.1.102-g0.1.1-d0.1.107-x0.1.21-280ae777749b/OPENOS-UPDATE-COMMANDS.md)
 - Source-verified GTNH 2.8.4 fluid setup: read-only wrapper repair, maintained fluid witnesses, and explicit waiting states for missing storage prerequisites.
-
-Previous releases:
+- Superseded for new deployments: temporary commissioning stops can self-block while retaining armed row settings. The current release corrects the stop and restoration contracts.
 
 - `maintainer-c0.2.3-a0.1.101-g0.1.1-d0.1.106-x0.1.21-be4ba4bedf34`
 - Systems: Core `0.2.3`, AE2 `0.1.101`, GT Power `0.1.1`, Dashboard `0.1.106`, Commands `0.1.21`
